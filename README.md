@@ -2,8 +2,6 @@
     <img src="https://makccr.github.io/images/github-header.svg" alt="MAKC lgoo" title="MAKC" align="right" height="50" />
 </a>
 
-# hepBurn 
-
 <p align="center"><img src="https://raw.githubusercontent.com/makccr/hepburn/master/images/hepburn.png"></p>
 
 hepBurn is a vim theme that is basically a direct rip-off of [gruvbox][] with the the background colors set to pure black. 
