@@ -1,9 +1,9 @@
 " -----------------------------------------------------------------------------
-" File: gruvbox.vim
-" Description: Gruvbox colorscheme for Lightline (itchyny/lightline.vim)
-" Author: gmoe <me@griffinmoe.com>
-" Source: https://github.com/morhetz/gruvbox
-" Last Modified: 20 Sep 2017
+" File: hepburn.vim
+" Description: An OLED fork of Gruvbox
+" Author: makccr <mackenziegcriswell@gmail.com>
+" Source: https://github.com/makccr/hepburn
+" Last Modified: 08 Mar 2024
 " -----------------------------------------------------------------------------
 
 function! s:getGruvColor(group)
@@ -14,18 +14,18 @@ endfunction
 
 if exists('g:lightline')
 
-  let s:bg0  = s:getGruvColor('GruvboxBg0')
-  let s:bg1  = s:getGruvColor('GruvboxBg1')
-  let s:bg2  = s:getGruvColor('GruvboxBg2')
-  let s:bg4  = s:getGruvColor('GruvboxBg4')
-  let s:fg1  = s:getGruvColor('GruvboxFg1')
-  let s:fg4  = s:getGruvColor('GruvboxFg4')
+  let s:bg0  = s:getGruvColor('HepburnBg0')
+  let s:bg1  = s:getGruvColor('HepburnBg1')
+  let s:bg2  = s:getGruvColor('HepburnBg2')
+  let s:bg4  = s:getGruvColor('HepburnBg4')
+  let s:fg1  = s:getGruvColor('HepburnFg1')
+  let s:fg4  = s:getGruvColor('HepburnFg4')
 
-  let s:yellow = s:getGruvColor('GruvboxYellow')
-  let s:blue   = s:getGruvColor('GruvboxBlue')
-  let s:aqua   = s:getGruvColor('GruvboxAqua')
-  let s:orange = s:getGruvColor('GruvboxOrange')
-  let s:green = s:getGruvColor('GruvboxGreen')
+  let s:yellow = s:getGruvColor('HepburnYellow')
+  let s:blue   = s:getGruvColor('HepburnBlue')
+  let s:aqua   = s:getGruvColor('HepburnAqua')
+  let s:orange = s:getGruvColor('HepburnOrange')
+  let s:green = s:getGruvColor('HepburnGreen')
 
   let s:p = {'normal':{}, 'inactive':{}, 'insert':{}, 'replace':{}, 'visual':{}, 'tabline':{}, 'terminal':{}}
   let s:p.normal.left = [ [ s:bg0, s:fg4, 'bold' ], [ s:fg4, s:bg2 ] ]
@@ -53,5 +53,5 @@ if exists('g:lightline')
   let s:p.normal.error = [ [ s:bg0, s:orange ] ]
   let s:p.normal.warning = [ [ s:bg2, s:yellow ] ]
 
-  let g:lightline#colorscheme#gruvbox#palette = lightline#colorscheme#flatten(s:p)
+  let g:lightline#colorscheme#hepburn#palette = lightline#colorscheme#flatten(s:p)
 endif
