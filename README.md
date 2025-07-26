@@ -1,12 +1,14 @@
-#hepBurn
+# hepBurn
 A vim theme that is essentially a direct rip-off of [gruvbox][], but with the the background colors set to pure black. 
 
-I like [gruvbox][] a whole hell of a lot, but I got annoyed using it with OLED screens at night and being blinded by the grey background. Maybe I'm the only person in the world who would be annoyed by something as specific as the tiny amount of illumination from the screen that came with default [gruvbox][], but if you've experienced the same annoyance, hepBurn will solve the problem.
+<p align="center"><img src="https://raw.githubusercontent.com/makccr/hepburn/master/images/hepburn.png"></p>
+
+I love [gruvbox][]-a whole hell of a lot. But after buying a ThinkPad with an OLED screen, I became annoyed at using the pure-black display at night, and being blinded by the slighltly less than pure black backround in Vim. Maybe I'm the only person in the world who would be annoyed by something as specific as the tiny amount of illumination from the screen that came with default [gruvbox][], but if you've experienced the same annoyance, hepBurn will solve the problem.
 
 [gruvbox]: https://github.com/morhetz/gruvbox
 ![Contrast Options](https://github.com/makccr/hepburn/blob/master/images/shot.jpg?raw=true)
 
-Features
+Features (The Same as Gruvbox)
 --------
 
 * Lots of style-customization options (contrast, color invertion, italics usage etc.)
