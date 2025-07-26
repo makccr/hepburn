@@ -1,10 +1,5 @@
-<a href="https://makc.co">
-    <img src="https://makccr.github.io/images/github-header.svg" alt="MAKC lgoo" title="MAKC" align="right" height="50" />
-</a>
-
-<p align="center"><img src="https://raw.githubusercontent.com/makccr/hepburn/master/images/hepburn.png"></p>
-
-hepBurn is a vim theme that is basically a direct rip-off of [gruvbox][] with the the background colors set to pure black. 
+#hepBurn
+A vim theme that is essentially a direct rip-off of [gruvbox][], but with the the background colors set to pure black. 
 
 I like [gruvbox][] a whole hell of a lot, but I got annoyed using it with OLED screens at night and being blinded by the grey background. Maybe I'm the only person in the world who would be annoyed by something as specific as the tiny amount of illumination from the screen that came with default [gruvbox][], but if you've experienced the same annoyance, hepBurn will solve the problem.
 
